@@ -1,0 +1,72 @@
+Variables: 
+son aquellos elementos a los cuales vamos a darle un valor o caracteristica.
+En JS se simboliza como "var".
+Ejemplo:
+var Saludo = Hola.
+Donde,
+var: denota que es una variable.
+Saludo : es el nombre de la variable.
+Hola : es el valor o lo que corresponde a la variable.
+
+Las variables son la forma de almacenar un dato o caracteristica
+que podrá ser usada más adelante en el código
+
+Strings : son cadenas de caracteres tipo texto y siempre
+deben ir entre comillas simples o dobles (' ' , " ") para 
+denotar que son Strings.
+
+Funciones:
+son elementos que pueden ser invocados en cualquier momento
+dentro de ellas hay un codigo correspondiente a la acción que
+queremos que haga esta función.
+
+su estructura es la siguiente:
+function nombreDeLaFuncion (){}
+
+Donde,
+function: es la palabra clave que le dirá al programa que sea
+que la esta ejecutando que lo que sigue es una función y debe
+tratarse como tal.
+
+nombreDeLaFuncion: hace referencia al nombre de la funcion,
+preferiblemente que describa lo que hará la funcion.
+(): donde se daran los argumentos de la funcion.
+{} : dentro de los cuáles irá el codigo que responderá a lo que
+queremos que haga nuestra funcion.
+
+Argumentos: es aquello que queremos que involucre la función.
+Por ejemplo: 
+function MultiplicarDosNumeros (x,y)
+El argumento son los numeros "x" e "y".
+
+Declaración "return": lo que hace esto es devolver ese algo
+que le estamos pidiendo a la funcion que haga.
+ Eje:
+
+ funcion MultiplicarDosNumeros (x,y){
+    var multiplica = x*y;
+    return multiplica
+ }
+ Entonces, llamamos la funcion: MultiplicarDosNumeros (valor de x, valor de y)
+ y nos "retornará" un resultado.
+
+ MultiplicarDosNumeros (4,5)
+ > el va a ejecutar el argumento de la función y el codigo = 4*5
+ < retornando el valor = 20
+
+ Declaraciones if
+
+ if es básicamente un condicional, osea que cuando queremos
+ pensar que nuestro codigo haga algo, con esta declaracion vamos
+ a condicionar si se cumple o no.
+
+ Esta es una forma en que nuestra funcion
+ verifica si es "true" o "false"
+
+ Valor booleano, es un valor binario
+ es 0 o 1, es true o false.
+ En este caso se usan true y false, para saber si una función esta
+ respondiendo o no a lo que queremos,
+
+
+
