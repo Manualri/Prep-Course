@@ -1,0 +1,17 @@
+El bucle "for":
+es una instrucción similar a if, con la diferencia que en este caso
+declaramos una variable, luego una expresion condicional y por ultimo como
+incrementaremos la variable. Esta instrucción se repetirá tantas veces como
+le sea indicado, o hasta que nuestra condicion sea false.
+
+Operadores:
+
+&& corresponde a "Y" o "AND", este operador evalua si AMBAS condiciones
+son verdaderas, en caso tal que una sea falsa, el operador devolverá false.
+
+|| corresponde a "OR" u "O", este operador evalua si una de las dos condiciones
+es verdadera, en este caso devolverá true, si ambas son verdaderas
+o ambas son falsas, retornará false.
+
+! este operador es "NO" o "NOT", este valor devolverá el valor booleano opuesto
+a lo que pasa.
